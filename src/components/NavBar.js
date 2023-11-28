@@ -12,7 +12,7 @@ const NavBar = () => {
     return (
         <nav>
         <div className="nav-wrapper #1976d2 blue darken-2">
-          <Link to="/" className="brand-logo left">Sopping-Cart</Link>
+          <Link to="/" className="brand-logo left">Shopping-Cart</Link>
           <ul id="nav-mobile" className="right">
               <li>
                 <Link to="/cart">

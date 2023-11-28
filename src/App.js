@@ -9,9 +9,10 @@ import NavBar from './components/NavBar';
 import routes from './routes';
 import '@brainhubeu/react-carousel/lib/style.css';
 import { CartProvider} from "react-use-cart";
+import { BACKEND_URL } from './helpers';
 
 const client = new ApolloClient({
-  uri: 'http://localhost:1337/graphql',
+  uri: `${BACKEND_URL}/graphql`,
   cache: new InMemoryCache()
 });
 

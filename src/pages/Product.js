@@ -32,7 +32,7 @@ const Product = () => {
     
     return (
         <div className="container">
-            <Carousel>
+            <Carousel plugins={['arrows']}>
             {
                 images.data.map(({attributes})=>{
                     return <img style={{height:"50vh"}} src={`${BACKEND_URL+attributes.url}` } />
